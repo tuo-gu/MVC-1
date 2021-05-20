@@ -1,14 +1,14 @@
 #app4{
   border: 1px solid #000;
   width: 50vw;
-  height: 50vw;
+  height: 50vh;
 }
 #wear{
   position: relative;
   left: 5vw;
   top:5vw;
-  width: 25vw;
-  height: 25vw;
+  width: 25vh;
+  height: 25vh;
   border-radius: 50%;
   background: blue;
 }
