@@ -1,0 +1,25 @@
+#app4{
+  border: 1px solid #000;
+  width: 50vw;
+  height: 50vw;
+}
+#wear{
+  position: relative;
+  left: 5vw;
+  top:5vw;
+  width: 25vw;
+  height: 25vw;
+  border-radius: 50%;
+  background: blue;
+}
+@keyframes wear {
+  0%{
+    background:blue;
+  }
+  100%{
+    background:red;
+  }
+}
+#wear.change{
+  animation:wear 2s infinite alternate;
+}

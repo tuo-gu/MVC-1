@@ -1,0 +1,33 @@
+#app3{
+  border: 1px solid #000;
+  width: 50vw;
+  height: 50vw;
+}
+#square{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  position: relative;
+  left: 1vw;
+  top:5vw;
+  width: 10vw;
+  height: 10vw;
+  transition: transform 1s;
+}
+@keyframes skew {
+  0%{
+    border-radius: 10%;
+  }
+  40%{
+    border-radius: 30%;
+  }
+  100%{
+    border-radius: 50%;
+  }
+}
+#square.move{
+  transform:translateX(25vw);
+  animation: skew 1s;
+  border-radius: 50%;
+}

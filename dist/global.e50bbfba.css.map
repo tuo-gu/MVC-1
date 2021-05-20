@@ -1,0 +1,1 @@
+{"version":3,"sources":["global.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA","file":"global.e50bbfba.css","sourceRoot":"..","sourcesContent":["*{\r\n  color:red;\r\n}\r\nbody{\r\n  border: 1px solid #000;\r\n}"]}

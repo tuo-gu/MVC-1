@@ -1,0 +1,9 @@
+#app1{
+  border: 1px solid #000;
+  left: 10px;
+  width: 50vw;
+  height: 50vw;
+}
+#actions >button{
+  width: 30px;
+}

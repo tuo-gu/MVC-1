@@ -1,0 +1,110 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+*::before,*::after{
+  box-sizing: border-box;
+}
+ul,ol{
+  list-style: none;
+}
+body{
+  overflow: hidden;
+}
+.section{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#app1{
+  border: 1px solid #000;
+  left: 10px;
+  width: 50vw;
+  height: 50vw;
+}
+#actions >button{
+  width: 30px;
+}
+#app2{
+  border: 1px solid #000;
+  width: 50vw;
+  height: 50vw;
+}
+#tag{
+  display:flex;
+}
+#tag>li{
+  border: 1px solid #eee;
+  width: 50%;
+  display: flex;
+  justify-content:center;
+}
+#tag>li.selector{
+  background-color: rgb(236, 233, 233);
+}
+#showTag>li{
+  display: none;
+}
+#showTag>li.active{
+  display: block;
+}
+
+
+#app3{
+  border: 1px solid #000;
+  width: 50vw;
+  height: 50vw;
+}
+#square{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  position: relative;
+  left: 1vw;
+  top:5vw;
+  width: 10vw;
+  height: 10vw;
+  transition: transform 1s;
+}
+@keyframes skew {
+  0%{
+    border-radius: 10%;
+  }
+  40%{
+    border-radius: 30%;
+  }
+  100%{
+    border-radius: 50%;
+  }
+}
+#square.move{
+  transform:translateX(25vw);
+  animation: skew 1s;
+  border-radius: 50%;
+}
+#app4{
+  border: 1px solid #000;
+  width: 50vw;
+  height: 50vw;
+}
+#wear{
+  position: relative;
+  left: 5vw;
+  top:5vw;
+  width: 25vw;
+  height: 25vw;
+  border-radius: 50%;
+  background: blue;
+}
+@keyframes wear {
+  0%{
+    background:blue;
+  }
+  100%{
+    background:red;
+  }
+}
+#wear.change{
+  animation:wear 2s infinite alternate;
+}
+
+/*# sourceMappingURL=/main.1f19ae8e.css.map */
